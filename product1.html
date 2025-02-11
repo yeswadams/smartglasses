@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <header class= "hero">
+      
+        <header class= "hero-section1">
+    
+            <div class="top">
+                <div class="logo1"><img src="/assets/imgs/Logo 1.png" alt=""></div>
+                <div class=" logo2"><img src="/assets/imgs/Logo 2.png" alt=""></div>
+                <div class="headline">Creating the Future of Vision</div>
+                <nav class="nav-links mobile-hide">
+                    <a href="#products">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#events">Events</a>
+                    <a href="#press">Press</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <button class="cart-btn">My Cart <i class="fa-solid fa-cart-arrow-down"></i><sup>(0)</sup></button>
+                <div class="hamburger-menu mobile-hide"><i class="fa-solid fa-bars"></i></div>
+            </div>
+
+
+    </header>
+    
+    <div class="product-container">
+        <div class="product-details">
+            <div image="product_img">
+                <img src="/assets/imgs/Glasses 1 1.png" alt="product.1">
+            </div>
+
+            <div class="product_information">
+                <div class="top1">
+                    <h2 class="product_name">Sync2 x-m</h2>
+                    <h3 class="product_price">KSH. 7300</h3>
+                    <p class="product_description">The Sync2 x-m isn't just a pair of glasses; it's a gateway to a smarter, more connected world. Designed to seamlessly integrate into your life, these intelligent glasses offer a range of features that enhance your productivity, entertainment, and overall experience.</p>
+
+                </div>
+
+                <hr>
+
+                <div class="bottom1">
+                    <h3 class="product_category">Intelligent glasses</h3>
+                    <div class="color-selector">
+                        <p for="color-options">Frame color</p>
+                        <select id="selected-color" ><option value>Choose Frame Color: </option></i>
+                            <option value="red" class="color">Classic Black</option>
+                            <option value="blue" class="color">Sleek Silver</option>
+                            <option value="green" class="color">Bold Gold</option>
+                        </select>
+
+                    </div>
+
+                    <div class="color-selector">
+                        <p for="color-options">Lens Tint</p>
+                        <select id="selected-color" ><option value>Choose Lens Tint: </option> <span></span></i>
+                            <option value="red" class="color">Polarized</option>
+                            <option value="blue" class="color">Photochromic</option>
+                            <option value="green" class="color"> Lens Tint</option>
+                        </select>
+
+                    </div> 
+
+                    <div class="color-selector">
+                        <p for="color-options">Temple Material</p>
+                        <select id="selected-color" ><option value>Choose a Color</option> <span></span></i>
+                            <option value="red" class="color">Carbon Fiber</option>
+                            <option value="blue" class="color">Acetate</option>
+                            <option value="green" class="color">Stainless Steel</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="product_btn">
+                    <a href="/product1.html">
+                        <button class="cart-btn2">Add to Cart <i class="fa-solid fa-cart-arrow-down"></i></button>
+                    </a>
+                    <button class="cart-btn2">Check Out</button>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+    </div>   
+
+    <div class="tabs_wrapper">
+        <ul class="constrained_width" role="tablist">
+            <li class="tab" id="description_tab" role="tab" aria-controls="tab-description" aria-selected="true">
+                <a href="#tab-description">Description</a>
+            </li>
+            <li class="tab" id="additional_info_tab" role="tab" aria-controls="tab-additional-info" aria-selected="false">
+                <a href="#tab-additional-info">Additional Information</a>
+            </li>
+            <li class="tab" id="reviews_tab" role="tab" aria-controls="tab-reviews" aria-selected="false">
+                <a href="#tab-reviews">Reviews</a>
+            </li>
+        </ul>
+    
+        <article class="tab_panel" id="tab-description" role="tabpanel" aria-labelledby="description_tab">
+            <p>The Sync2 x-m isn't just a pair of glasses; it's a gateway to a smarter, more connected world. Designed to seamlessly integrate into your life, these intelligent glasses offer a range of features that enhance your productivity, entertainment, and overall experience. The Sync2 x-m is more than a technological marvel; it's a lifestyle upgrade. Embrace the future of wearable technology and redefine the way you interact with the world.</p>
+        </article>
+    
+        <article class="tab_panel" id="tab-additional-info" role="tabpanel" aria-labelledby="additional_info_tab" hidden>
+            <p>Here’s additional information about the Sync2 x-m glasses...</p>
+        </article>
+    
+        <article class="tab_panel" id="tab-reviews" role="tabpanel" aria-labelledby="reviews_tab" hidden>
+            <p>Customer reviews and ratings for the Sync2 x-m glasses are shown here</p>
+            <form action="post" class="review-form">
+                <h2>Submit a Review</h2>
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="review">Review</label>
+                    <textarea id="review" required></textarea>
+                </div>
+            
+                <div class="form-group rating">
+                    <label for="rating">Rating:</label>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                </div>
+
+                <div class="form-group checkbox-group">
+                   
+                    <div class="form-group checkbox-group">
+                        <label>
+                            <input type="checkbox" name="like" value="quality"> I accept the Privacy Policy.
+                        <label>
+                            <input type="checkbox" name="like" value="design">  Save my name, email, and website in this browser for the next time I  comment.
+                        </label>
+                    </div>
+                </div>
+                    
+            
+                <button type="submit">Submit</button>
+            </form>
+            
+        </article>
+    </div>
+
+     <!-- FOOTER SECTION START -->
+     <div class="footer-section">
+        <div class="top">
+        <!-- Left Section -->
+            <div class="left-section">
+                <p class="join-title">JOIN THE COMMUNITY</p>
+        
+            </div>
+        
+            <!-- Right Section -->
+            <div class="right-section">
+                <!-- Main Text -->
+                <div class="main-text">
+                    <h2>EXPLORE THE WORLD WITH STYLE AND CONNECTIVITY AND DISCOVER THE FUTURE TODAY</h2>
+                </div>
+        
+            </div>
+        </div>
+
+            <!-- Bottom Section -->
+            <div class="bottom-section">
+                <!-- Newsletter Form -->
+                <div class="newsletter-form">
+                    <p class="newsletter-title">JOIN THE NEWSLETTER</p>
+                    <form>
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                        
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+
+                        <button class="productpg_btn">Subscribe</button>
+                    </form>
+                </div>
+                <div class="right_links">
+                    <p>SOCIAL LINKS:</p>
+                    <a href="#">INSTAGRAM <span><i class="ri-arrow-right-up-line"></i></span></a>
+                    <a href="#">EMAIL <span><i class="ri-arrow-right-up-line"></i></span></a>
+                    <a href="#">FACEBOOK <span><i class="ri-arrow-right-up-line"></i></span></a>
+                    <a href="#">YOUTUBE <span><i class="ri-arrow-right-up-line"></i></span></a>
+                </div>
+            </div>
+        
+    </div>
+
+    <!-- FOOTER SECTION END -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
