@@ -61,9 +61,9 @@ This project is licensed under the MIT License – feel free to modify and use i
 
 📞 Contact
 
-For any inquiries or collaborations, reach out via [your email or portfolio link].
+For any inquiries or collaborations, reach out via yeswaadams73@gmail.com.
 
-💡 Built with passion by [Your Name]
+💡 Built with passion by Yeswa
 
 
 
